@@ -1,0 +1,55 @@
+#hello-box {
+	background-color: red;
+	height: 418px;
+	width: 762px;
+	border-radius: 34px;
+	border: 10px solid black;
+	box-shadow: -20px -20px 15px #33ff00;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #ffffff;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#top-section {
+	height: 60vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#posts article {
+	background-color: rgb(204, 204, 204);
+	padding: 30px;
+	margin: 20px;
+}
+.profile-pic {
+	width: 70px;
+	border-radius: 100%;
+	transform: translateY(50%);
+}
+.username {
+	font-size: 15px;
+	font-weight: bold;
+}
+.time {
+}
+.username-time {
+	padding-left: 15px;
+}
+#posts header {
+	display: flex;
+	align-items: center;
+}
+#posts footer {
+	display: flex;
+	justify-content: space-between;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.clicked {
+	color: rgb(0, 140, 255);
+}

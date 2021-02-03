@@ -1,0 +1,25 @@
+body {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#player {
+	font-size: 4rem;
+	/* display: flex; */
+}
+#player .fa-pause {
+	display: none;
+}
+#player .fa-forward {
+	margin-left: 4rem;
+}
+#player .fa-backward {
+	margin-right: 4rem;
+}
+#player .fa-backward,
+#player .fa-forward,
+#player .fa-play,
+#player .fa-pause {
+	cursor: pointer;
+}
